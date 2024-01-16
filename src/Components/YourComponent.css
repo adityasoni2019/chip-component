@@ -1,0 +1,16 @@
+.selected {
+  background-color: #3498db;
+  color: #fff;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  /* Remove the default outline on focus */
+}
+
+.custom-input-style {
+  appearance: none;
+  /* Remove default appearance styles */
+}

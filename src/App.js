@@ -7,21 +7,16 @@ import YourComponent from './Components/YourComponent';
 import Lance from './Components/Lance';
 function App() {
 
-  const { selectedContacts ,setSelectedContacts ,unSelectedContacts ,setUnSelectedContacts } = useContext(ChipContext)
+  const { selectedContacts, setSelectedContacts, unSelectedContacts, setUnSelectedContacts } = useContext(ChipContext)
 
   useEffect(() => {
     console.log(unSelectedContacts);
   }, [])
   return (
     <>
-      ------YourComponent------
-      <YourComponent /> 
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      ------lance------
-      <Lance/>
+      <div>
+        <YourComponent />
+      </div>
     </>
   );
 }
